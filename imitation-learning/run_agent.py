@@ -16,7 +16,7 @@ def main():
     parser.add_argument('envname', type=str)
     parser.add_argument('--render', action='store_true')
     parser.add_argument("--max_timesteps", type=int)
-    parser.add_argument('--num_rollouts', type=int, default=1,
+    parser.add_argument('--num_rollouts', type=int, default=10,
                         help='Number of agent roll outs')
     args = parser.parse_args()
 
