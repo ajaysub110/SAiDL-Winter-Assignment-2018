@@ -11,7 +11,7 @@
 - **Training:** Training has been done on a large number of epochs (100000) since we desire overfitting in this scenario.
 
 
-## Question 4.2: Work Embeddings (File: word-embeddings.ipynb)
+## Question 4.2: Word Embeddings (File: word-embeddings.ipynb)
 - The first few cells are to integrate the notebook with Google Colab, download Pytorch, and obtain the Large Movie Review Dataset from Kaggle. Please ignore these cells.
 - Then, I have defined methods to load a single document (load_doc), clean and extract tokens (clean_doc), Load all files (load_all) and separate tokenization (tokenize_corpus)
 - This is an implementation of the word2vec embedding model using a simple 2 layer neural network, in pytorch.
